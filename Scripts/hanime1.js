@@ -4,7 +4,7 @@ var WidgetMetadata = {
     description: "统一版：全局搜索、排行、分类、高级检索、新番预告",
     author: "TaYhu|EL (Fixed)",
     site: "https://hanime1.me",
-    version: "3.1.0",
+    version: "3.2.0",
     requiredVersion: "0.0.2",
     detailCacheDuration: 300,
     search: {
