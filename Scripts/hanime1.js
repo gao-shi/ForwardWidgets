@@ -19,7 +19,7 @@ var WidgetMetadata = {
         {
             title: "统一搜索",
             description: "普通搜索、日常精选、手动翻页",
-            requiresWebView: false,
+            requiresWebView: true,
             functionName: "searchVideos",
             cacheDuration: 600,
             params: [
@@ -50,7 +50,7 @@ var WidgetMetadata = {
         {
             title: "高级筛选",
             description: "多标签组合过滤",
-            requiresWebView: false,
+            requiresWebView: true,
             functionName: "loadAdvancedGenre",
             cacheDuration: 600,
             params: [
@@ -91,7 +91,7 @@ var WidgetMetadata = {
         {
             title: "排行榜",
             description: "热门与最新影片榜单",
-            requiresWebView: false,
+            requiresWebView: true,
             functionName: "loadHotRankings",
             cacheDuration: 300,
             params: [
@@ -108,7 +108,7 @@ var WidgetMetadata = {
         {
             title: "分类浏览",
             description: "按分类浏览影片",
-            requiresWebView: false,
+            requiresWebView: true,
             functionName: "loadByGenre",
             cacheDuration: 600,
             params: [
@@ -132,7 +132,7 @@ var WidgetMetadata = {
         {
             title: "新番预告",
             description: "查看即将上映的新番",
-            requiresWebView: false,
+            requiresWebView: true,
             functionName: "loadPreviews",
             cacheDuration: 3600,
             params: []
